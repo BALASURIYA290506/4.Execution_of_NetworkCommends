@@ -31,7 +31,7 @@ This commands includes
 ## PROGRAM
 
 ## SERVER.PY
-```
+```python
 import socket
 
 # DNS records (simulated database)
@@ -61,7 +61,7 @@ while True:
 ```
 
 ## CLIENT.PY
-```
+```python
 import socket
 # Create UDP socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
